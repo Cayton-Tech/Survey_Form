@@ -1,6 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title>Friend Finder Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
   </head>
+  <body>
+    <header>
+      <h1 id="title">Friend Finder Form<h1>
+       <br>
+      <p id="description"> To find the best matches please infrorm us of your preferences using the form below. </p>
+    </header>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name or Nickname</label>
+      <input id="name" type="text" name="name" placeholder="JC or James Cross" required>
+      <br>
+      <label for="email" id="email-label">Email Address</label>
+      <input id="email" type="email" name="email" placeholder="jamescross@gmail.com" required>
+      <br>
+      <label for="number" id="number-label">Your Age</label>
+      <input id="number" type="number" name="Age" placeholder="18" min="18" max="25" required> 
+      <br>
+    </form>
+  </body>
 </html>
