@@ -1,1 +1,24 @@
+body    {
+    background-color: #1BA098;
+}
+  
+#title  {
+    align-text: center;
+    text-color: #DEB992;
+    background-color: #051622;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+header  {
+    background-color:  #051622;
+}
+
+form    {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #051622;
+    border-radius: 10px;
+    border-width: 2px;
+    width: 70%
+}
