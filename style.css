@@ -3,7 +3,6 @@ body    {
 }
   
 #title  {
-    align-text: center;
     text-color: #DEB992;
     background-color: #051622;
     margin-left: auto;
@@ -15,10 +14,12 @@ header  {
 }
 
 form    {
+    text-color:#DEB992;
+    padding: 10px;
     margin-left: auto;
     margin-right: auto;
     background-color: #051622;
     border-radius: 10px;
     border-width: 2px;
-    width: 70%
+    width: 50%
 }
