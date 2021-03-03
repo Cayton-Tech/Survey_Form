@@ -11,6 +11,7 @@ body    {
 
 header  {
     background-color:  #051622;
+    border-radius: 5px;
 }
 
 form    {
@@ -22,4 +23,9 @@ form    {
     border-radius: 10px;
     border-width: 2px;
     width: 50%
+}
+
+p       {
+    text-align: center;
+    text-color: #DEB992;
 }
