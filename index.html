@@ -5,9 +5,11 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css" type="text/css">
   </head>
-  <body>
+    <header>
       <h1 id="title">Friend Finder Form</h1>
-       <br>
+    </header>   
+      <br>
+   <body>
       <p id="description"> To find the best matches please provide us with some information using the form below. </p>
     
     <form id="survey-form">
@@ -16,15 +18,15 @@
       <br>
       
       <label for="email" id="email-label">Email Address</label>
-      <input id="email" type="email" name="email" placeholder="jamescross@gmail.com" required>
+      <input id="email" type="email" name="email" placeholder="jamescross@gmail.com" class="label-name" required>
       <br>
       
       <label for="number" id="number-label">Your Age</label>
-      <input id="number" type="number" name="Age" placeholder="18" min="18" max="25" required> 
+      <input id="number" type="number" name="Age" placeholder="18" min="18" max="25" class="label-name" required> 
       <br>
       
       <label for="dropdown" id="personality"> Personality Type. Don't know your type, click <a href="https://www.16personalities.com/" target="_blank" id="16personalities">here<a>.
-      <select id="dropdown">
+      <select id="dropdown" class="label-name">
         <option value="ISTJ">ISTJ</option>
         <option value="INFJ">INFJ</option>
         <option value="INTJ">INTJ</option>
@@ -77,7 +79,7 @@
           </textarea>
           <br>
           
-          <input id="submit" type="submit" value="Find a Friend">
+          <input id="submit" type="submit" value="Find a Friend" id="button">
     </form>
   </body>
 </html>
