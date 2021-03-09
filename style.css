@@ -27,5 +27,9 @@ form   {
   cursor: pointer;
 }
 
-
-  
+.label-name {
+  display: block;
+  width: 90%;
+  height: 2rem;
+  padding: 0.25rem, 0.75rem;
+}
