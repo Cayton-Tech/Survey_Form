@@ -1,1 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 
+body  {
+  font-family: Dosis;
+  line-height: 1.4;
+  background-color:#66a3ff;
+  width: 500px;
+  margin: auto;
+}
+
+form   {
+  background-color: #cce0ff;
+  padding: 2.5rem, 2.5rem;
+  border-radius: round;
+  width: 500px;
+  border-width: 1.5px;
+  border-color: #000066;
+}
+
+.button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #8585ad;
+  color: white;
+  border-width: 1px;
+  border-color: black;
+  cursor: pointer;
+}
+
+
+  
